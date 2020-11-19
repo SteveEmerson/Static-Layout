@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/background-stars-desktop_81342104.jpeg");
+  background-image: url("assets/background-stars-desktop_81342104.jpeg");
   background-size: contain;
   margin: 0px;
   padding: 0px;
@@ -201,7 +201,7 @@ tr {
 
 #mando {
   position: relative;
-  background-image: url("../assets/the-mandalorian-s2-speederbike-hero-desktop_da95b7e5.jpeg");
+  background-image: url("assets/the-mandalorian-s2-speederbike-hero-desktop_da95b7e5.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 358px;
@@ -210,7 +210,7 @@ tr {
 
 #heiress {
   position: relative;
-  background-image: url("../assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpg");
+  background-image: url("assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #1a222e;
