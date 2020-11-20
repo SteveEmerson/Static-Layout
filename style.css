@@ -287,6 +287,45 @@ tr {
   font-weight: bold;
 }
 
+#mando_hook_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hb {
+  color: white;
+  font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  border-radius: 5px 5px;
+  height: 30px;
+  width: 120px;
+  margin: 10px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#md_hook_b1 {
+  background-color: #106ae0;
+}
+
+#md_hook_b2 {
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(206, 196, 196);
+  border-width: 1px;
+}
+
+#md_hook_b1:hover {
+  background-color: #1c79f3;
+}
+
+#md_hook_b2:hover {
+  background-color: rgb(20, 20, 20);
+}
+
 #mando_buttons {
   position: absolute;
   bottom: 0px;
@@ -342,12 +381,52 @@ tr {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #1a222e;
-  height: 800px;
+  height: 480px;
   margin-left: 80px;
   margin-right: 80px;
 }
 
 #heiress_logo {
-  margin: 100px 100px;
+  width: 100%;
+}
+
+#heiress_hook {
+  height: 70%;
   width: 30%;
+  position: absolute;
+  left: 100px;
+  top: 75px;
+  margin: 0px;
+}
+
+#heiress_blurb {
+  font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#heiress_hook_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#h_hook_b1 {
+  background-color: #106ae0;
+}
+
+#h_hook_b2 {
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(206, 196, 196);
+  border-width: 1px;
+}
+
+#h_hook_b1:hover {
+  background-color: #1c79f3;
+}
+
+#h_hook_b2:hover {
+  background-color: rgb(20, 20, 20);
 }
