@@ -139,8 +139,8 @@ body {
   color: rgb(170, 170, 170, 50%);
   background-color: rgb(170, 170, 170, 20%);
   border-radius: 3px;
-  width: 65%;
-  margin-left: 35%;
+  width: 52%;
+  margin-left: 48%;
 
   text-align: left;
 }
@@ -267,6 +267,75 @@ tr {
   padding-top: 100px;
 }
 
+#mando-hook {
+  height: 70%;
+  width: 30%;
+  position: absolute;
+  right: 100px;
+  top: 75px;
+  margin: 0px;
+}
+
+#mando_now_streaming {
+  width: 100%;
+}
+
+#mando_blurb {
+  font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#mando_buttons {
+  position: absolute;
+  bottom: 0px;
+}
+
+.mando_button {
+  width: 170px;
+  height: 90px;
+  border: none;
+  color: rgb(170, 170, 170, 90%);
+  font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 10px 10px 50px 10px;
+  text-align: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(50%);
+}
+
+.mando_button:hover {
+  color: white;
+}
+
+#mb1 {
+  background-image: url("./assets/cheer-hero-c-desktop_2b9eb7b9.jpeg");
+  margin-left: 200px;
+  margin-right: 25px;
+}
+
+#mb2 {
+  background-image: url("./assets/the-mandalorian-s2-ch11-hero-desktop_d0a8e17a.webp");
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#mb3 {
+  background-image: url("./assets/osws-208-new-swcom-slide-desktop-_3_cbe3a8b5.webp");
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#mb4 {
+  background-image: url("./assets/cheer-hero-c-desktop_2b9eb7b9.jpeg");
+  margin-left: 25px;
+  margin-right: 100px;
+}
+
 #heiress {
   position: relative;
   background-image: url("./assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpg");
@@ -276,4 +345,9 @@ tr {
   height: 800px;
   margin-left: 80px;
   margin-right: 80px;
+}
+
+#heiress_logo {
+  margin: 100px 100px;
+  width: 30%;
 }
