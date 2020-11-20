@@ -160,13 +160,11 @@ body {
 }
 
 button {
-  position: absolute;
-  right: 0;
   background: rgb(170, 170, 170, 0%);
   border: 0;
   height: 100%;
   border-radius: 3px;
-  padding-right: 5px;
+  padding: 0;
   vertical-align: top;
   border-radius: 0px 3px 3px 0px;
 }
