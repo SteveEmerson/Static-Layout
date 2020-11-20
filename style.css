@@ -22,14 +22,14 @@ body {
 
 #soc_med_nav {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  width: 28%;
 }
 
 .fa {
   padding: 0px;
-  font-size: 10px;
-  width: 15px;
-  height: 15px;
+  /* font-size: 30px; */
+  object-fit: cover;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -43,6 +43,7 @@ body {
 .fa-facebook {
   background: rgb(170, 170, 170, 75%);
   color: black;
+  width: 16px;
 }
 .fa-facebook:hover {
   background: rgb(170, 170, 170, 100%);
@@ -110,13 +111,13 @@ body {
 
 #self_link {
   position: relative;
-  width: 33%;
+  width: 44%;
   text-align: center;
   margin: auto;
 }
 
 #swlogo {
-  height: 53px;
+  height: 70px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -127,6 +128,59 @@ body {
 
 #search_login {
   position: relative;
+  width: 28%;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#search_bar_div {
+  height: 30px;
+  color: rgb(170, 170, 170, 50%);
+  background-color: rgb(170, 170, 170, 20%);
+  border-radius: 3px;
+  width: 65%;
+  margin-left: 35%;
+
+  text-align: left;
+}
+
+#search_bar {
+  background-color: rgb(170, 170, 170, 0%);
+  border: 0;
+  color: inherit;
+  height: 100%;
+  padding-left: 10px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+#search_bar:focus {
+  background-color: rgb(170, 170, 170, 25%);
+  color: rgb(170, 170, 170, 60%);
+}
+
+button {
+  background: rgb(170, 170, 170, 0%);
+  border: 0;
+  height: 100%;
+  border-radius: 3px;
+  padding: 0;
+  vertical-align: top;
+  border-radius: 0px 3px 3px 0px;
+}
+.fa-search {
+  border: 0;
+  color: rgb(170, 170, 170, 50%);
+  height: 100%;
+  padding: 0;
+}
+
+.fa-search:focus {
+  color: rgb(170, 170, 170, 60%);
+}
+
+#login_signup {
+  margin-bottom: 40px;
 }
 
 #navbar {
@@ -154,6 +208,7 @@ tr {
   /* border-top: 1px solid rgb(170, 170, 170);
   border-bottom: 1px solid rgb(170, 170, 170); */
   text-align: center;
+  padding: 5px 3px;
 }
 
 .table_data_end {
@@ -164,7 +219,7 @@ tr {
   text-decoration: none;
   color: rgb(170, 170, 170, 75%);
   font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
-  font-size: 7px;
+  font-size: 12px;
   padding: 0px;
   height: inherit;
   font-weight: 600;
@@ -189,23 +244,27 @@ tr {
   padding-right: 5px;
   color: rgb(170, 170, 170, 75%);
   font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
-  font-size: 7px;
+  font-size: 12px;
   /* width: 100%; */
 }
 
 #disney_plus_logo {
   /* padding-top: 5px; */
-  height: 15px;
+  height: 25px;
   padding-bottom: 5px;
 }
 
 #mando {
   position: relative;
   background-image: url("./assets/the-mandalorian-s2-speederbike-hero-desktop_da95b7e5.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 358px;
+  background-position: center;
+  height: 443px;
   width: 100%;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  padding-top: 100px;
 }
 
 #heiress {
@@ -215,6 +274,6 @@ tr {
   background-repeat: no-repeat;
   background-color: #1a222e;
   height: 800px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
